@@ -1,0 +1,15 @@
+jekyll-latex
+============
+
+Writing posts for Jekyll in LaTeX.
+
+Features:
+- generates posts with YAML front-matter from LaTeX files (requires stringex gem)
+- uses TtH (http://hutchinson.belmont.ma.us/tth/) as converter
+- highlights code for \minted and \inputminted LaTeX commands
+- valid minted options: linenos,firstnumber
+
+Jekyll configuration file options:
+  #directory for latex files and includes
+  latex: _latex
+
